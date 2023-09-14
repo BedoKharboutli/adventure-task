@@ -1,3 +1,3 @@
 # adventure-task
 
-a simple game for learning
+a simple game for learning test
