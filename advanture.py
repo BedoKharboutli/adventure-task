@@ -38,9 +38,11 @@ while run:
     if choice == 0:
         run = False
     elif choice == 1:
-        print("you are going north")
+        print(
+            "you are going north, take a look at the nice view of the city from the window"
+        )
     elif choice == 2:
-        print("you are going sout")
+        print("you are going south")
     elif choice == 3:
         print("you are going east")
     elif choice == 4:
