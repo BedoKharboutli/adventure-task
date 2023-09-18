@@ -1,4 +1,4 @@
-# Welcoming Screen Function.
+# Welcoming Screen (Function).
 def WlcScreen():
     print(
         "Welcome to my first game in Python. Its a simple game that allows you to choose one of som options to make a movement "
@@ -7,7 +7,7 @@ def WlcScreen():
     print()
 
 
-# Description and the view of the room.
+# Description and the view of the room (Function) .
 def displayRoom(discription, doors):
     print("you are standing in" + " " + discription)
     print("And there are doors to your: ", doors)
@@ -20,7 +20,7 @@ def displayRoom(discription, doors):
     print()
 
 
-# Option menu for the player.
+# Option menu for the player (Function).
 def optionMenu():
     print("what do u want to do?")
     print("1. go north")
@@ -33,6 +33,10 @@ def optionMenu():
 
 discription = "big scary room "
 doors = ["north", "south", "east", "west"]
+
+###############################################
+###############################################
+# Main Program
 
 # Welcoming Screen
 WlcScreen()
@@ -53,7 +57,7 @@ while run:
     if not choice.isnumeric():
         print("sorry! Did not understand what u meant, Please give a number")
         continue
-
+    # Check player choises
     choice = int(choice)
     if choice == 0:
         run = False
